@@ -270,6 +270,7 @@ nav a:hover {
     width: 100%;
     max-width: 1000px;
     margin: 0 auto;
+    height: 0;
 }
 
 .course-arrows .arrow {
@@ -474,4 +475,19 @@ nav a:hover {
         flex-direction: column;
         gap: 10px;
     }
+
+        .course-arrows {
+        height: 40px; /* место для стрелок */
+        margin-bottom: 10px;
+    }
+
+    .course-arrows .arrow {
+        padding: 10px 12px;
+        font-size: 16px;
+        top: 0; /* вместо top: 50% */
+        transform: none;
+    }
+
+    .course-arrows .arrow.left { left: 10px; }
+    .course-arrows .arrow.right { right: 10px; }
 }
