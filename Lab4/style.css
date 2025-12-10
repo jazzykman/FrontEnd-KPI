@@ -1,0 +1,12 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+button {
+    margin-right: 10px;
+}
+
+#imageContainer img {
+    display: block;
+    margin-top: 20px;
+}
