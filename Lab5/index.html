@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Sychov Artem IS-31</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Форма для заповнення</h2>
+
+    <form id="myForm">
+        <div class="field">
+            <label>ПІБ</label>
+            <input type="text" id="pib" placeholder="ТТТТТ Т.Т.">
+        </div>
+
+        <div class="field">
+            <label>Група</label>
+            <input type="text" id="group" placeholder="ТТ-ЧЧ">
+        </div>
+
+        <div class="field">
+            <label>Телефон</label>
+            <input type="text" id="phone" placeholder="(000)-000-00-00">
+        </div>
+
+        <div class="field">
+            <label>ID-card</label>
+            <input type="text" id="idcard" placeholder="TT №000000">
+        </div>
+
+        <div class="field">
+            <label>Факультет</label>
+            <input type="text" id="faculty" placeholder="TTTT">
+        </div>
+
+        <button type="button" id="submitBtn">Перевірити</button>
+    </form>
+</div>
+
+
+<div class="container">
+    <h2>Таблиця (6х6)</h2>
+
+    <input type="color" id="colorPicker" value="#ff0000">
+
+    <table id="myTable"></table>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
