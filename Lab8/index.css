@@ -477,17 +477,25 @@ nav a:hover {
     }
 
         .course-arrows {
-        height: 40px; /* место для стрелок */
+        height: 40px;
         margin-bottom: 10px;
     }
 
     .course-arrows .arrow {
         padding: 10px 12px;
         font-size: 16px;
-        top: 0; /* вместо top: 50% */
+        top: 0; 
         transform: none;
     }
 
     .course-arrows .arrow.left { left: 10px; }
     .course-arrows .arrow.right { right: 10px; }
+
+    .course-arrows {
+        display: none;
+    }
+
+    .course-dots {
+        display: none;
+    }
 }
