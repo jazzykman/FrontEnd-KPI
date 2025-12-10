@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="прізвище, автор, біографія, хобі">
+    <meta name="description" content="Персональна сторінка студента">
+    <title>Sychov Artem IS-31</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h2>Сичов Артем Євгенович</h2>
+
+    <p>Дата народження: 01.02.2006. Місце народження: Одеса</p>
+
+    <p>
+        Освіта:
+        <br>Школа №13
+        <br>Навчаюсь у КПІ, ФІОТ
+    </p>
+
+    <h3>Мої хобі:</h3>
+    <ul>
+        <li>Гончарство</li>
+        <li id="el8">Збір пазлів</li>
+        <li id="el9">Фрісбі</li>
+    </ul>
+
+    <h3>Мої улюблені книги/фільми:</h3>
+    <ol>
+        <li>Нічний цирк</li>
+        <li>Тінь вітру</li>
+        <li>Марсіанин</li>
+    </ol>
+
+    <h3>Моє улюблене місто - Париж</h3>
+    <p>
+        Париж — це неймовірне місто...
+    </p>
+
+    <a href="https://uk.wikivoyage.org/wiki/%D0%9F%D0%B0%D1%80%D0%B8%D0%B6" target="_blank">
+        <img id="mainImage" src="paris.jpg" width="400">
+    </a>
+
+    <br><br>
+
+    <button onclick="addImage()">Додати</button>
+    <button onclick="increaseImage()">Збільшити</button>
+    <button onclick="decreaseImage()">Зменшити</button>
+    <button onclick="removeImage()">Видалити</button>
+
+    <div id="imageContainer"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
