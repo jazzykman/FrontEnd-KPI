@@ -1,0 +1,101 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    margin-bottom: 40px;
+}
+
+td {
+    border: 2px solid black;
+    height: 80px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 22px;
+    font-weight: bold;
+    transition: 0.25s;
+}
+
+.row1group td {
+    background-color: #078f8f;
+    color: #ffffff;
+}
+
+.row1group:hover td {
+    background-color: #ffffff;
+    color: #078f8f;
+}
+
+.row2group td {
+    background-color: #f5f557;
+    color: #000;
+}
+
+.row2group:hover td {
+    background-color: #000;
+    color: #f5f557;
+}
+
+.clock-position {
+    width: 160px;
+    height: 160px;
+    background: #eee;
+    border: 3px solid black;
+    border-radius: 20px;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.clock-position .dot {
+    width: 20px;
+    height: 20px;
+    background: red;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.clock-position .dot.top { 
+    top: 5px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+}
+
+.clock-position .dot.right { 
+    top: 50%; 
+    right: 5px; 
+    transform: translateY(-50%); 
+}
+
+.clock-position .dot.bottom { 
+    bottom: 5px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+}
+
+.clock-position .dot.left { 
+    top: 50%; 
+    left: 5px; 
+    transform: translateY(-50%); 
+}
+
+.clock-position .hand {
+    position: absolute;
+    background: black;
+    border-radius: 4px;
+}
+
+.clock-position .hand.vertical {
+    width: 8px;
+    height: 75px;
+    top: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.clock-position .hand.horizontal {
+    width: 60px;
+    height: 8px;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+}
